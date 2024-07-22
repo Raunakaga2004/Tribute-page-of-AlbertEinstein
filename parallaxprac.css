@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(0, 0, 0, 0.930);
+    color:rgb(255, 255, 255);
+}
+#parallax1{
+    /* color:rgb(161, 160, 160); */
+
+    background:url("einstein3.jpeg");
+    width:100%;
+    height:900px;
+    background-size:cover;
+    background-position: 45%;
+    text-align:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter:brightness(0.5);
+    letter-spacing: 2px;
+}
+#parallax1 h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    margin: auto;
+            position: relative;
+            top: 450px;
+            vertical-align: middle;
+            width:fit-content;
+            height: auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.642);
+            color: white;
+            text-align: center;
+}
+#parallax2{
+    /* color:white; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background:url("einstein.jpg");
+    width:100%;
+    height:900px;
+    background-size:cover;
+    background-position: 45%;
+    text-align:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(0.8);
+}
+#parallax2 h1{
+    margin: auto;
+            position: relative;
+            top: 450px;
+            vertical-align: middle;
+            width: 30%;
+            height: auto;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.66);
+            color:white;
+            text-align: center;
+}
+.devel{
+    font-size:small;
+}
+.name{
+    font-size:x-large;
+}
+p{
+    padding:10px;
+    color:rgba(255, 255, 255, 0.392);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:link {
+    color: rgba(255, 255, 255, 0.809);
+    /* background-color: transparent; */
+    text-decoration: none;
+ }
+ a:visited {
+    color:rgba(255, 255, 255, 0.809);
+    /* background-color: transparent; */
+    text-decoration: none;
+ }
+ a:active {
+    color:rgba(255, 255, 255, 0.809);
+    /* background-color: transparent; */
+    text-decoration: none;
+ }
